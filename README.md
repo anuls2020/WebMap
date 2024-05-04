@@ -1,5 +1,6 @@
 # WebMap application using Streamlit and Folium
 
 
-Added the population layer
-![img.png](img.png)
+Final Map with Layer control
+
+![img_1.png](img_1.png)

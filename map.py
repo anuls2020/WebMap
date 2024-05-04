@@ -37,8 +37,8 @@ fgp.add_child(folium.GeoJson(data=open("world.json", 'r', encoding='utf-8-sig').
                             else 'orange' if 10000000 <= x['properties']['POP2005'] < 20000000 else 'red'}))
 
 #Add child to the map object
-map.add_child(fgv)
 map.add_child(fgp)
+map.add_child(fgv)
 
 #Adding layer Control
 map.add_child(folium.LayerControl())
